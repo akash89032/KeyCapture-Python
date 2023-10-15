@@ -1,71 +1,48 @@
-<h1 align="center">
-  <br>
-  <br>
-  K🔑Logger v3.0.0
-  <br>  
-</h1>
+# KeyCapture-Python
 
+**KeyCapture-Python** is an interesting Python project that allows you to create an executable keylogger, compile it into an executable (.exe) for Windows or Linux, and even add your own icon. Please use this tool responsibly and for educational purposes only.
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Author-mido--de3vil-orange">
-  <img src="https://img.shields.io/badge/Open%20Source-Yes-cyan?style=flat-square">
-  <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
-</p>
+## Introduction
 
+This Python tool provides a convenient way to create a keylogger, compile it into an executable, and add your own icon. Keyloggers have legitimate use cases, such as monitoring your own computer, but they can also be misused. Ensure you have the necessary permissions and adhere to all legal and ethical guidelines when using or distributing keyloggers.
 
-### Description
-Remote persistent 🔑Logger for Windows and Linux
-### Features
-- Logs keys pressed on keyboard
-- upload reports in [anonfile](https://anonfiles.com/).
-- Works with Linux and Windows.
-- Does not require root or admin privlages.
-### All previous problems have been resolved
-### It is still undetectable
-#### Requirements
-* python >= 3.8 ++ Download [Python](https://www.python.org/ftp/python/3.8.10/python-3.8.10-amd64.exe)
-* os : Windows
-* os : Linux
+## Features
 
-### Installation to Windows:
+- Create a keylogger in Python.
+- Compile the keylogger into an executable file (.exe).
+- Add a custom icon to your compiled keylogger.
+- Easy-to-use and interactive console interface.
 
-```bash
-git clone https://github.com/De3vil/KLogger.git
-cd KLogger
-pip install -r win_requirements.txt
-python logger.py
-```
-### Installation to Linux 
-```bash
-git clone https://github.com/De3vil/KLogger.git
-cd KLogger
-chmod +x linux_setup.sh
-bash linux_setup.sh
-python logger.py
-```
-### warning:
-```bash
-* Don't Upload in VirusTotal.com Bcz This tool will not work with Time.
-* Virustotal Share Signatures With AV Comapnies.
-* Again Don't be an Idiot!
-```
+## Usage
 
+1. Clone the repository to your local machine.
+2. Run the `Key.py` file.
+3. Follow the prompts to set a token and time interval for keylogging.
+4. Choose whether to compile the keylogger into an executable.
+5. If compiling, decide whether to add a custom icon to the executable.
 
-## AV detection
-![](src/AV.png)
+**Note:** This tool is intended for educational purposes, and its use should comply with all legal and ethical standards.
 
-![](src/1.png)
+## Compilation
 
-***
-<h4> Abdulrahman Mohammed </h4>
-  <a href="https://t.me/De3vil_3">
-     <img src="https://img.shields.io/badge/De3vil__3-blue?style=for-the-badge&logo=Telegram&logoColor=00AEFF&labelColor=black&color=black">
-</a>
-  <a href="https://www.facebook.com/De3vil.3">
-     <img src="https://img.shields.io/badge/De3vil__3-blue?style=for-the-badge&logo=Facebook&logoColor=00AEFF&labelColor=black&color=black">
-  </a>
+The tool allows you to compile the Python keylogger into an executable. You can choose whether to add a custom icon to the executable. The compilation process is platform-specific:
 
+- For Windows: It uses `pyinstaller` to create a Windows executable (.exe).
+- For Linux: It uses `wine` and `pyinstaller` to create a Linux executable.
 
-If this tool has been useful for you, feel free to thank me by buying me a coffee :)
-[![Coffee](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/De3vil)
- [![B De3vil](https://img.shields.io/badge/$-support-ff69b4.svg?style=flat)](https://www.paypal.com/paypalme/De3vil01)
+## Disclaimer
+
+The use of keyloggers for any malicious or unauthorized activities is strictly prohibited. Always obtain proper authorization and ensure that you comply with all legal and ethical standards when using keyloggers.
+
+## Contributing
+
+Contributions to this project are welcome! If you have suggestions or improvements, please follow these guidelines:
+
+1. Fork the repository to your GitHub account.
+2. Create a new branch for your feature or bug fix.
+3. Commit your changes and push them to your fork.
+4. Create a pull request to merge your changes into the main repository.
+
+## License
+
+This project is open source and available under the MIT License. See the [LICENSE](LICENSE) file for more details.
